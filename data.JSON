@@ -1,0 +1,17 @@
+
+{
+  "menuitems": [
+    {
+      "name": "dal",
+      "short_name": "D"
+    },
+    {
+      "name": "chawal",
+      "short_name": "C"
+    }
+  ],
+  "category": {
+    "name": "food",
+    "short_name": "F"
+  }
+}

@@ -46,7 +46,7 @@ var categoryHtml = "snippets/category-snippet.html";
 //   "https://davids-restaurant.herokuapp.com/menu_items.json?category=";
 
   var menuItemsUrl =
-  "http://localhost:8080/api/menuitems/category?category=";
+  "http://localhost:8080/api/menuitems/bySN/";
 var menuItemsTitleHtml = "snippets/menu-items-title.html";
 var menuItemHtml = "snippets/menu-item.html";
 

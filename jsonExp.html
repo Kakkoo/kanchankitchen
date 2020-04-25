@@ -1,0 +1,46 @@
+[
+{"name": "John", "age": 20, "city": "Italy"},
+{"name": "Pohn", "age": 30, "city": "Pitaly"},
+{"name": "Dohn", "age": 40, "city": "Citaly"}
+]
+
+<!DOCTYPE html>
+<html>
+    <title>My movie</title>
+    <script>
+        var movies = [
+            {
+            title: "The Godfather",
+            year: "1972",
+            genere: "Drama",
+            director: "Francis Ford Copolla"
+        },
+        {
+            title: "The Godmother",
+            year: "1979",
+            genere: "Drama1",
+            director: "Francis Ford "
+        },
+        {
+            title: "The Goddaughter",
+            year: "1978",
+            genere: "Drama11",
+            director: "Francis"
+        }
+    ]
+    </script>
+    <head>json Learning </head>
+    <body>
+
+    </body>
+    <script>
+        for(i=0; i<movies.length; i++){
+        document.write("<h4>"+movies[i].title+"<h4>");
+            document.write("<li>"+movies[i].year+"<li>");
+                document.write("<li>"+movies[i].genere+"<li>");    
+                    document.write("<li>"+movies[i].director+"<li>");    
+
+        }
+    </script>
+
+</html>
