@@ -1,48 +1,118 @@
-<!DOCTYPE html>
-<html>
-    <head>
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Module2WebPage</title>
-    <link rel="stylesheet" href="module2.css">
-    <h1>Different Kinds of Arts</h1>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sharma family's kitchen</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
 </head>
-    <body>
-        <div class="grid-container">
-           
-              <div>
-                <h2>Ancient Art</h2>Ancient art refers to the many types of art produced by the 
-                    advanced cultures of ancient societies with some form of writing, such as those of ancient 
-                    China, India, Mesopotamia, Persia, Palestine, Egypt, Greece, and Rome. The art of pre-literate 
-                    societies is normally referred to as Prehistoric art and is not covered here. Although some 
-                    Pre-Columbian cultures developed writing during the centuries before the arrival of Europeans, 
-                    on grounds of dating these are covered at Pre-Columbian art, 
-                    and articles such as Maya art and Aztec art. Olmec art is mentioned below.</div>
-            <div>
-                  <h2>Middle Age Art</h2>If you were born during the Middle Ages then you would have 
-                    been witness to a major period of transition in history as a whole. After the devastation of 
-                    the Black Death, Europe saw its most dramatic decrease in stability, with at least a third of 
-                    the population killed off by this awful pandemic.
-                    Understandably, art suffered as a result. And though threats from outside invasions were no 
-                    longer as imminent, the Islamic influences from earlier years of conquests became a recurring 
-                    theme in many works of art. Religion is presumed to be a huge subject as well, as survivors 
-                    clung to the hopes and stories of their favorite icons. But there was also the emergence of 
-                    definitively different styles like Baroque and Gothic art, which opened the doors to great 
-                    artistic influences for centuries to come.</div>
-                
-                <div>
-                    <h2>Modern Art</h2>Modern art includes artistic work produced during the period 
-                    extending roughly from the 1860s to the 1970s, and denotes the styles and philosophy of the 
-                    art produced during that era.[1] The term is usually associated with art in which the 
-                    traditions of the past have been thrown aside in a spirit of experimentation.[2] Modern 
-                    artists experimented with new ways of seeing and with fresh ideas about the nature of 
-                    materials and functions of art. A tendency away from the narrative, which was characteristic 
-                    for the traditional arts, toward abstraction is characteristic of much modern art. More recent 
-                    artistic production is often called contemporary art or postmodern art.
-               
-                </div>
-           </div>
-       </body>
-    </body>
-    <script src="js/main.js"></script>
+
+<body>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="index2.html" class="pull-left visible-md visible-lg">
+            <div id="logo-img"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="index2.html">
+              <h1>Sharma family's kitchen</h1>
+            </a>
+            <p>
+              <img src="images/starlogo50.png" alt="logo">
+              <span>Garam Masala</span>
+            </p>
+          </div>
+
+          <button id="navbarToggle" type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+            data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right">
+            <li id="navHomeButton" class="visible-xs active">
+              <a href="index2.html">
+                <span class="glyphicon glyphicon-home"></span> Home</a>
+            </li>
+            <li id="navMenuButton">
+              <a href="#" onclick="$dc.loadMenuCategories();">
+                <span class="glyphicon glyphicon-cutlery"></span><br class="hidden-xs"> Menu</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span><br class="hidden-xs"> About</a>
+            </li>
+            <li>
+              <a href="#">
+                <span class="glyphicon glyphicon-certificate"></span><br class="hidden-xs"> Awards</a>
+            </li>
+            <li id="phone" class="hidden-xs">
+              <a href="tel:206-556-8465">
+                <span>206-556-8465</span></a>
+              <div>* Dine only</div>
+            </li>
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="tel:206-556-8465">
+      <span class="glyphicon glyphicon-earphone"></span>
+      206-556-8465
+    </a>
+  </div>
+  <div id="xs-deliver" class="text-center visible-xs">* Dine only</div>
+
+  <div id="main-content" class="container"></div>
+
+  <footer class="panel-footer">
+    <div class="container">
+      <div class="row">
+        <section id="hours" class="col-sm-4">
+          <span>Hours:</span><br>
+          All seven days OPEN<br>
+          Breakfast: 7:00am - 9:00am<br>
+          Lunch : 12:00pm - 2:00pm<br>
+          Dinner : 6:30pm - 7:30pm
+
+          <hr class="visible-xs">
+        </section>
+        <section id="address" class="col-sm-4">
+          <span>Address:</span><br>
+          20022 Jewell Road<br>
+          Bothell, 98012
+          <p>* Dine only.</p>
+          <hr class="visible-xs">
+        </section>
+        <section id="testimonials" class="col-sm-4">
+          <p>"Tasty and healthy home food."</p>
+          <p>"Great service! Couldn't ask for more! I'll be back again and again!"</p>
+        </section>
+      </div>
+      <div class="text-center">&copy; Sharma family's kitchen</div>
+    </div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+  <script src="js/ajax-utils.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
 </html>
